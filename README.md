@@ -1,49 +1,57 @@
-# 💼 Mukesh | Portfolio Website
+# Mukesh Maharaja – Portfolio 🚀
 
-A modern, responsive personal portfolio website built to showcase my skills, projects, and experience as a **Full Stack / Frontend Developer**.
-
----
-
-## 🚀 Features
-
-- Responsive design (Mobile, Tablet, Desktop)
-- Modern UI with smooth layout
-- Hero, Resume, Projects, Contact sections
-- Project pagination
-- Contact form with validation
-- Clean and scalable code structure
+A modern full-stack developer portfolio built with **Next.js**, **Node.js**, and **Express**.  
+Includes a fully working contact form with backend email notifications.
 
 ---
 
-## 🛠️ Tech Stack
+## 🌐 Live Demo
 
-**Frontend**
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
+🔗 Frontend:  
+https://mukeshmaharaja-portfolio.vercel.app
 
-**Backend (Contact Form)**
+🔗 Backend API:  
+https://portfolio-backend-3sym.onrender.com
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Next.js
+- React
+- CSS (custom responsive design)
+- Vercel (deployment)
+
+### Backend
 - Node.js
 - Express.js
-- Nodemailer
+- Resend (Email API)
+- Render (deployment)
 
 ---
 
-## 📂 Project Structure
+## ✨ Features
 
-```bash
+- Responsive UI (Mobile, Tablet, Desktop)
+- Resume, Projects, and Contact sections
+- Contact form with validation
+- Email notification on form submission
+- Secure environment variable handling
+- Auto-deploy via GitHub
 
-portfolio-project/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── backend/
-│   ├── src/
-│   ├── routes/
-│   └── package.json
-│
-└── README.md
+---
+
+## 📩 Contact Form – How It Works
+
+1. User submits the contact form
+2. Frontend sends data to backend API
+3. Backend sends email using **Resend API**
+4. Email is delivered instantly
+
+---
+
+## ⚙️ Environment Variables
+
+### Backend (Render Dashboard)
+
